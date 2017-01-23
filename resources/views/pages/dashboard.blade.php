@@ -36,7 +36,6 @@
                     <div>no records Found</div>
                 @else
                     @foreach( $cities as $city )
-                        {{ dd($cities) }}
                         <div class="column is-half-tablet is-one-quarter-widescreen">
 
                             <div class="card">
