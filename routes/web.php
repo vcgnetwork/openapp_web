@@ -1,7 +1,11 @@
 <?php
 
 // HOME
-Route::get('/', 'HomeController@index');
+Route::get('/', 'PagesController@index');
+
+// SEARCH
+Route::get('/search', 'PagesController@index');
+Route::post('/search', 'PagesController@search');
 
 // AUTH
 Route::get('/login', 'UsersController@login');

@@ -43,7 +43,6 @@
     </div><!-- container -->
 </section>
 
-
 @if (View::hasSection('footer'))
     @yield('footer')
 @else

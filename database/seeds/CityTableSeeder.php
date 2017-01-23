@@ -45,40 +45,40 @@ class CityTableSeeder extends Seeder
             'forecast' => 'Decreasing cloudiness and windy. Slight chance of a rain shower. High 71F. Winds WNW at 25 to 35 mph.',
             'created_at' => '2017-01-01 00:00:00'
         ]);
-        DB::table('cities')->insert([
-            'user_id' => 1,
-            'zipcode' => '90210',
-            'country' => 'US',
-            'lat' => '34.09999847',
-            'long' => '-118.41000366',
-            'wuiurl' => 'https://www.wunderground.com/US/CA/Beverly_Hills.html',
-            'city' => 'Beverly_Hills',
-            'state' => 'CA',
-            'observation_time' => 'Last Updated on January 23, 8:45 AM PST',
-            'weather' => 'Overcast',
-            'temperature_string' => '51.2 F (10.7 C)',
-            'wind_string' => 'From the NE at 1.0 MPH Gusting to 7.0 MPH',
-            'icon_url' => 'http://icons.wxug.com/i/c/k/cloudy.gif',
-            'forecast' => 'Showers this morning then scattered thunderstorms developing during the afternoon hours. High 54F. Winds W at 10 to 20 mph. Chance of rain 50%.',
-            'created_at' => '2017-01-01 00:00:00'
-        ]);
-        DB::table('cities')->insert([
-            'user_id' => 1,
-            'zipcode' => '10001',
-            'country' => 'US',
-            'lat' => '40.75000000',
-            'long' => '-74.00000000',
-            'wuiurl' => 'https://www.wunderground.com/US/NY/New_York.html',
-            'city' => 'New_York',
-            'state' => 'NY',
-            'observation_time' => 'Last Updated on January 23, 11:46 AM EST',
-            'weather' => 'Overcast',
-            'temperature_string' => '39.4 F (4.1 C)',
-            'wind_string' => 'From the West at 1.8 MPH Gusting to 2.5 MPH',
-            'icon_url' => 'http://icons.wxug.com/i/c/k/cloudy.gif',
-            'forecast' => 'Showers early, becoming a steady rain for the afternoon. Windy. High around 40F. Winds NE at 25 to 35 mph. Chance of rain 90%. Winds could occasionally gust over 50 mph.',
-            'created_at' => '2017-01-01 00:00:00'
-        ]);
-        
+//        DB::table('cities')->insert([
+//            'user_id' => 1,
+//            'zipcode' => '90210',
+//            'country' => 'US',
+//            'lat' => '34.09999847',
+//            'long' => '-118.41000366',
+//            'wuiurl' => 'https://www.wunderground.com/US/CA/Beverly_Hills.html',
+//            'city' => 'Beverly_Hills',
+//            'state' => 'CA',
+//            'observation_time' => 'Last Updated on January 23, 8:45 AM PST',
+//            'weather' => 'Overcast',
+//            'temperature_string' => '51.2 F (10.7 C)',
+//            'wind_string' => 'From the NE at 1.0 MPH Gusting to 7.0 MPH',
+//            'icon_url' => 'http://icons.wxug.com/i/c/k/cloudy.gif',
+//            'forecast' => 'Showers this morning then scattered thunderstorms developing during the afternoon hours. High 54F. Winds W at 10 to 20 mph. Chance of rain 50%.',
+//            'created_at' => '2017-01-01 00:00:00'
+//        ]);
+//        DB::table('cities')->insert([
+//            'user_id' => 1,
+//            'zipcode' => '10001',
+//            'country' => 'US',
+//            'lat' => '40.75000000',
+//            'long' => '-74.00000000',
+//            'wuiurl' => 'https://www.wunderground.com/US/NY/New_York.html',
+//            'city' => 'New_York',
+//            'state' => 'NY',
+//            'observation_time' => 'Last Updated on January 23, 11:46 AM EST',
+//            'weather' => 'Overcast',
+//            'temperature_string' => '39.4 F (4.1 C)',
+//            'wind_string' => 'From the West at 1.8 MPH Gusting to 2.5 MPH',
+//            'icon_url' => 'http://icons.wxug.com/i/c/k/cloudy.gif',
+//            'forecast' => 'Showers early, becoming a steady rain for the afternoon. Windy. High around 40F. Winds NE at 25 to 35 mph. Chance of rain 90%. Winds could occasionally gust over 50 mph.',
+//            'created_at' => '2017-01-01 00:00:00'
+//        ]);
+
     }
 }

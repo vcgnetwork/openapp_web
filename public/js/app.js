@@ -9,9 +9,9 @@ $("document").ready(function() {
     });
 
     // alert windows
-    // $(".close-me-x").click(function (e) {
-    //     e.preventDefault();
-    //     $(this).parent().fadeOut(300);
-    // });
+    $(".delete").click(function (e) {
+        e.preventDefault();
+        $(this).parent().fadeOut(600);
+    });
 
 });
