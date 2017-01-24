@@ -4,8 +4,7 @@
 Route::get('/', 'PagesController@index');
 
 // SEARCH
-Route::get('/search', 'PagesController@index');
-Route::post('/search', 'PagesController@search');
+Route::post('/search', 'SearchController@search');
 
 // AUTH
 Route::get('/login', 'UsersController@login');
