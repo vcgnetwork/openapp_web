@@ -1,0 +1,109 @@
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle:focus {
+    outline: 0;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.dropdown-menu.pull-right {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    /*background: #e5e5e5;*/
+}
+
+.dropdown-menu > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+a:hover,
+a:focus,
+.dropdown a:hover,
+.dropdown a:focus,
+.dropdown-menu > a:hover,
+.dropdown-menu > a:focus{
+    text-decoration: none;
+    background: inherit;
+}
+
+.dropdown-menu > a.active,
+.dropdown-menu > a.active:hover,
+.dropdown-menu > a.active:focus {
+    /*color: #ffffff;*/
+    text-decoration: none;
+    outline: 0;
+    /*background: #337ab7;*/
+}
+
+/* BULMA CSS */
+/* NAV */
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.nav.has-shadow {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.nav,
+.nav-menu {
+    background: #ffffff;
+}
+
+.nav-menu {
+    text-transform: capitalize;
+}
+
+.nav-right {
+    padding: 0 10px 0 0;
+}
+
+/*normal*/
+.nav a,
+.nav .dropdown-toggle {
+    /*color: #bbbbbb;*/
+}
+/*hover*/
+.nav a:hover,
+.nav .dropdown-toggle:hover {
+    /*color: #ffffff;*/
+}
+/*active*/
+.nav a.is-active {
+    /*color: #0099ff;*/
+}

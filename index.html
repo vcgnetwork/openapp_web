@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Loan Processing Module (admin)">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>AeBLE JS App</title>
+</head>
+<body>
+
+<div id="app">
+    <ul>
+        <li v-for="name in names" v-text="name"></li>
+    </ul>
+    <input id="input" type="text" v-model="newName">
+    <button @click="addName" :title="title">Add Name</button>
+</div>
+
+<script src="/assets/js/vue.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+
+        data: {
+            newName: '',
+            names: ['joe', 'mary', 'jane', 'bobby'],
+            title: 'Click button to add name.'
+        },
+
+        methods: {
+            addName() {
+                this.names.push(this.newName);
+                this.newName = '';
+            }
+        }
+
+    });
+</script>
+
+</body>
+</html>

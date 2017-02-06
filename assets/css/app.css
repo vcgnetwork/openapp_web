@@ -1,0 +1,267 @@
+/* CSS */
+.padding {
+    padding: 5px !important;
+}
+
+.small {
+    font-size: 85%;
+}
+
+span.status {
+    border-left: 10px solid transparent;
+    margin: 1px;
+    padding: 1px;
+}
+
+span.status.is-opp0 {
+    border-color: #996699;
+}
+
+span.status.is-opp1 {
+    border-color: #5599dd;
+}
+
+span.status.is-opp2 {
+    border-color: #ee0000;
+}
+
+span.status.is-opp3 {
+    border-color: #ff9900;
+}
+
+span.status.is-opp4 {
+    border-color: #dddd00;
+}
+
+span.status.is-opp5 {
+    border-color: #aabbaa;
+}
+
+span.status.is-opp6 {
+    border-color: #aaddaa;
+}
+
+span.status.is-opp7 {
+    border-color: #00dd00;
+}
+
+/** NAV **/
+.nav-adjustment {
+    padding: 70px 0 0 0;
+}
+
+/* LOGOS */
+.logo-nav {
+    height: auto;
+    max-width: 400px;
+    width: auto;
+}
+
+.logo-big {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* PROFILE */
+.profile-nav {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-name {
+    font-size: 2em;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.profile-email {
+    font-size: 1.3em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.profile-title {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.profile-pic {
+    max-width: 200px;
+    width: 100%;
+}
+
+/* PAGES */
+.page-wrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.home-wrapper *,
+.about-wrapper *,
+.services-wrapper * {
+    color: #ffffff;
+}
+
+.home-wrapper {
+    background: url("/images/assets/desk-with-card-stock.jpg") transparent 40% 100% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#homeWrap {
+    background: rgba(0, 68, 136, 0.9);
+}
+
+.about-wrapper {
+    background: url("/images/assets/timeless-sandy-beach-man-walking-with-child.jpg") transparent 80% 20% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#aboutWrap {
+    background: rgba(203, 169, 135, 0.9);
+}
+
+.services-wrapper {
+    background: url("/images/assets/government-stairs.jpg") transparent 50% 0% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#servicesWrap {
+    background: rgba(204, 102, 0, 0.9);
+}
+
+.contact-wrapper {
+    background: url("/images/assets/white-stairs.jpg") transparent 50% 0% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contactWrap {
+    background: rgba(200, 200, 200, 0.8);
+}
+
+/* CARD */
+.card {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 96%;
+}
+
+.card-footer {
+    border-top: none;
+}
+
+.card-footer-item:not(:last-child) {
+    border-right: none;
+}
+
+/* PROGRESS BAR */
+.progressBarContainer {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #999999;
+    border-radius: 0px;
+}
+
+.progressColorBar,
+.progressColorBarRed,
+.progressColorBarOrange,
+.progressColorBarYellow,
+.progressColorBarGreen {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.progressBarRed {
+    background-color: #990000;
+}
+
+.progressBarOrange {
+    background-color: #ff8800;
+}
+
+.progressBarYellow {
+    background-color: #cccc00;
+}
+
+.progressBarGreen {
+    background-color: #339933;
+}
+
+.progressPercentage {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+/* CHART TOOLTIPs */
+
+.jqstooltip {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    border: 1px solid #999999 !important;
+}
+
+.jqsfield {
+    color: white;
+    text-align: left;
+}
+
+.jqstooltip {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* FORMs */
+
+.textarea {
+    min-height: 60px;
+}
+
+/* BORDERs */
+.bordered {
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.border-dashed {
+    border: 1px dashed #dedede;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.is-complete {
+    border: 1px solid #339933;
+}
+
+/* TABLEs */
+table.table-small-text td {
+    font-size: 10px;
+}
+
+table thead.center th,
+table tbody.center td {
+    text-align: center;
+}
+
+/* MOBILY ONLY */
+@media screen and ( max-width: 767px ) {
+    table {
+        font-size: 10px;
+    }
+}
