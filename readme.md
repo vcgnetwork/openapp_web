@@ -1,3 +1,3 @@
 # OpenApp.Online
 
-Enterprise grade web application.
+Example web application
